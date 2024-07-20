@@ -11,7 +11,9 @@ RP decrypts the Code ID of Bob, finds the associated real IP address of Bob and 
 Bob reads the packet and decrypts the real IP address of Alice.
 
 Prerequisite: `openssl`
+
 Comilation:
 `gcc filename.c -lcrypto -o output_file_name`
+
 Execution (Alice to be run last):
 `sudo output_file_name`
